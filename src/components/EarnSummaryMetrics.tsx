@@ -22,15 +22,12 @@ export function EarnSummaryMetrics({ vaultSummaries }: EarnSummaryMetricsProps) 
 
   const earnSummaryMetrics = useMemo(() => {
     const totalSuppliedUsd = vaultSummaries.reduce((acc, summary) => acc + summary.supplyAssetsUsd, 0);
-    const totalLiquidityUsd = vaultSummaries.reduce((acc, summary) => acc + summary.liquidityAssetsUsd, 0);
-    const totalBorrowedUsd = totalSuppliedUsd - totalLiquidityUsd;
 
     const userEarnApy = accountVaultPositionAggregate?.avgApy;
     const userDepositsUsd = accountVaultPositionAggregate?.totalSupplyUsd;
 
     return {
       totalSuppliedUsd,
-      totalBorrowedUsd,
       userDepositsUsd,
       userEarnApy,
     };
@@ -40,9 +37,6 @@ export function EarnSummaryMetrics({ vaultSummaries }: EarnSummaryMetricsProps) 
     <EarnSummaryMetricsLayout
       totalSupplied={
         <NumberFlow value={earnSummaryMetrics.totalSuppliedUsd} format={{ currency: "USD" }} className="title-3" />
-      }
-      totalBorrowed={
-        <NumberFlow value={earnSummaryMetrics.totalBorrowedUsd} format={{ currency: "USD" }} className="title-3" />
       }
       userDeposited={
         <NumberFlowWithLoading
@@ -70,7 +64,6 @@ export function EarnSummaryMetricsSkeleton() {
   return (
     <EarnSummaryMetricsLayout
       totalSupplied={<MetricSkeleton className="w-[103px]" />}
-      totalBorrowed={<MetricSkeleton className="w-[103px]" />}
       userDeposited={<MetricSkeleton className="w-[90px]" />}
       userEarnApy={<MetricSkeleton className="w-[84px]" />}
     />
@@ -79,35 +72,16 @@ export function EarnSummaryMetricsSkeleton() {
 
 interface EarnSummaryMetricsLayoutProps {
   totalSupplied: ReactNode;
-  totalBorrowed: ReactNode;
   userDeposited: ReactNode;
   userEarnApy: ReactNode;
 }
 
-function EarnSummaryMetricsLayout({
-  totalSupplied,
-  totalBorrowed,
-  userDeposited,
-  userEarnApy,
-}: EarnSummaryMetricsLayoutProps) {
+function EarnSummaryMetricsLayout({ totalSupplied, userDeposited, userEarnApy }: EarnSummaryMetricsLayoutProps) {
   return (
     <div className="flex flex-col justify-between gap-4 md:flex-row">
-      <div className="flex gap-8">
-        <MetricWithTooltip
-          className="flex-1"
-          label="Total supplied"
-          tooltip="Total supplied across all vaults within the table."
-        >
-          {totalSupplied}
-        </MetricWithTooltip>
-        <MetricWithTooltip
-          className="flex-1"
-          label="Total borrowed"
-          tooltip="Total borrowed across all vaults within the table."
-        >
-          {totalBorrowed}
-        </MetricWithTooltip>
-      </div>
+      <MetricWithTooltip label="Total supplied" tooltip="Total supplied across all vaults within the table.">
+        {totalSupplied}
+      </MetricWithTooltip>
       <div className="flex gap-8">
         <MetricWithTooltip
           label={<span className="justify-end text-accent-secondary">Your Deposits</span>}
