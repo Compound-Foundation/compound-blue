@@ -704,7 +704,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XVII. Governing Law</h3>
+        <h3>XXIII. Governing Law</h3>
         <p>
           These Terms and any separate agreements whereby we provide you Services shall be governed by and construed in
           accordance with the laws of Florida, without giving effect to any choice or conflict of law provision or rule
@@ -713,7 +713,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XVIII. Contact Us</h3>
+        <h3>XXIV. Contact Us</h3>
         <p>
           You may contact us with questions about your use of the Services at <ContactUs />.
         </p>
