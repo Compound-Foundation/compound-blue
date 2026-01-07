@@ -71,7 +71,94 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>I. Use of the Services</h3>
+        <h3>I. TRANSITIONAL OPERATOR NOTICE</h3>
+        <p>
+          The Services are currently undergoing a transitional period. Certain maintenance, hosting, or operational 
+          functions relating to the Interface may be performed on a temporary or transitional basis by the Compound 
+          Foundation or its contractors. For the avoidance of doubt, neither the Compound Foundation nor any of its 
+          affiliates (collectively, the “Foundation Parties”) assume any responsibility for the Protocol, the smart 
+          contracts, or any user activity conducted through the Interface, and no Foundation Party shall be deemed 
+          to be an operator, controller, broker, intermediary, custodian, or service provider with respect to the 
+          Protocol or any blockchain transactions.
+        </p>
+      </section>
+      
+      <section>
+        <h3>II. Front-End Interface Only; No Protocol Services</h3>
+        <p>
+          The Services consist solely of a front-end user interface that enables users to interact with certain publicly 
+          available, permissionless blockchain protocols and smart contracts that are not owned, operated, controlled, or 
+          administered by us or any Foundation Party (the “Underlying Protocol”). We do not provide, operate, or perform 
+          any protocol-level services, blockchain infrastructure services, validation services, execution services, custody 
+          services, or transaction processing services.
+        </p>
+        <p>
+          All interactions with the Underlying Protocol occur directly between you and the applicable blockchain network 
+          and are executed solely by smart contracts deployed on such networks. Use of the Underlying Protocol, and any 
+          services, functionality, or outcomes associated with it, is entirely at your own risk. We make no representations 
+          or warranties regarding the security, functionality, availability, correctness, or continued operation of the 
+          Underlying Protocol or any blockchain network on which it operates.
+        </p>
+        <p>
+          You acknowledge and agree that any transactions you initiate are irrevocable, final, and executed outside of our 
+          control, and that we bear no responsibility or liability for any loss, damage, or adverse outcome arising from 
+          your interaction with the Underlying Protocol, including but not limited to smart contract failures, exploits, 
+          governance actions, protocol upgrades, forks, network congestion, or changes in protocol parameters.
+        </p>
+        <p>
+          Nothing in these Terms shall be construed as creating any obligation on us or any Foundation Party to monitor, 
+          support, maintain, upgrade, secure, or intervene in the operation of the Underlying Protocol or any related 
+          blockchain network.
+        </p>
+      </section>
+
+      <section>
+        <h3>III. Indemnified Parties</h3>
+        <p>
+          For the avoidance of doubt, the term “OSV Indemnified Parties” shall not include the Compound Foundation, 
+          its directors, officers, employees, contractors, delegates, or agents (collectively, the “Foundation Parties”), 
+          and nothing in these Terms shall create any indemnification, defense, or hold harmless obligation in favor of 
+          any Foundation Party.
+        </p>
+      </section>
+
+      <section>
+        <h3>IV. No Monitoring or Screening Obligation</h3>
+        <p>
+          You acknowledge that no Foundation Party undertakes any obligation to monitor, verify, screen, or enforce 
+          compliance with sanctions, politically exposed person status, or jurisdictional restrictions on an ongoing 
+          basis. Responsibility for compliance with applicable laws and regulations remains solely with you.
+        </p>
+      </section>
+
+      <section>
+        <h3>V. Survival Following Deprecation</h3>
+        <p>
+          This Arbitration Agreement and all limitations of liability, disclaimers, and waivers shall survive any 
+          deprecation, suspension, or discontinuation of the Services or Interface, and shall continue to apply to any 
+          Dispute arising out of or relating to prior use of the Services.
+        </p>
+      </section>
+
+      <section>
+        <h3>VI. No Successor or Assumption of Obligations</h3>
+        <p>
+          The temporary maintenance, hosting, or wind-down of the Interface by the Compound Foundation or any third party 
+          shall not constitute an assignment, novation, or assumption of any obligations, liabilities, representations, 
+          or warranties of OSV under these Terms, nor shall it create any successor liability of any kind.
+        </p>
+      </section>
+
+      <section>
+        <h3>VII. No New Reliance</h3>
+        <p>
+          You agree that any continued use of the Services following the posting of this notice is at your own risk and 
+          shall not create any new reliance, expectation, or obligation on the part of OSV or any Foundation Party.
+        </p>
+      </section>
+
+      <section>
+        <h3>VIII. Use of the Services</h3>
         <p>
           To use the Services, you must legally be able to enter into the Agreement. By using the Services, you
           represent and warrant that you are an Eligible User (as defined in Section III of these Terms). If you do not
@@ -85,7 +172,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>II. Services</h3>
+        <h3>IX. Services</h3>
         <p>
           The Website is an informational resource about the Protocol; however, it is not the exclusive or sole source.
           All information provided in connection with your access and use of the Services is intended for informational
@@ -135,7 +222,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>III. Eligible Users</h3>
+        <h3>X. Eligible Users</h3>
         <p>An “Eligible User” is a user that meet ALL the following criteria:</p>
         <ol>
           <li>
@@ -169,7 +256,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>IV. Assumption of Risk</h3>
+        <h3>XI. Assumption of Risk</h3>
         <p>
           Technologies such as smart contracts on various blockchains, cryptographic tokens generated by the smart
           contracts, and other nascent software, applications, and systems that interact with blockchain-based networks
@@ -252,7 +339,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>V. Taxes</h3>
+        <h3>XII. Taxes</h3>
         <p>
           You are responsible for your taxes and duties. Users bear sole responsibility for paying any and all taxes,
           duties, and assessments now or hereafter claimed or imposed by any governmental authority associated with
@@ -263,7 +350,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>VI. Ownership</h3>
+        <h3>XIII. Ownership</h3>
         <p>
           Contingent upon your ongoing compliance with the Agreement, we grant you a personal, worldwide, revocable,
           non-exclusive, and non-assignable license to use the software provided to you as part of our Services. The
@@ -284,7 +371,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>VII. Prohibited Content</h3>
+        <h3>XIV. Prohibited Content</h3>
         <p>
           You may only use the Services if you comply with this Agreement (including, without limitation, these Terms),
           applicable third-party policies, and all applicable laws, rules, regulations, and related guidance. The
@@ -337,7 +424,7 @@ export default function TermsPage() {
       </section>
 
       <section className="font-bold">
-        <h3>VIII. Disclaimers and Limitation of Liability</h3>
+        <h3>XV. Disclaimers and Limitation of Liability</h3>
         <p>
           THE SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. WE AND OUR PARENTS, SUBSIDIARIES,
           AFFILIATES, RELATED COMPANIES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, PARTNERS, AND
@@ -425,7 +512,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>IX. Indemnification</h3>
+        <h3>XVI. Indemnification</h3>
 
         <p>
           You agree to indemnify, defend, and hold harmless the OSV Indemnified Parties from any claim or demand,
@@ -456,7 +543,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>X. Arbitration Agreement and Waiver of Rights, Including Class Actions</h3>
+        <h3>XVII. Arbitration Agreement and Waiver of Rights, Including Class Actions</h3>
         <p>
           <b>
             PLEASE READ THIS SECTION CAREFULLY: IT MAY SIGNIFICANTLY AFFECT YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO
@@ -507,7 +594,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XI. Waiver of Injunctive or other Equitable Relief</h3>
+        <h3>XVIII. Waiver of Injunctive or other Equitable Relief</h3>
         <p>
           <b>
             TO THE MAXIMUM EXTENT PERMITTED BY LAW, YOU AGREE THAT YOU WILL NOT BE PERMITTED TO OBTAIN AN INJUNCTION OR
@@ -519,7 +606,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XII. Termination; Cancellation</h3>
+        <h3>XIX. Termination; Cancellation</h3>
         <p>
           This Agreement is effective unless and until terminated by either you or us. You may terminate your Agreement
           with us at any time by ceasing all access to the Services. If, in our sole judgment, you fail, or we suspect
@@ -585,7 +672,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XIV. Severability</h3>
+        <h3>XX. Severability</h3>
         <p>
           If any provision of the Agreement (including, without limitation, these Terms) is determined to be unlawful,
           void, or unenforceable, such provision shall nonetheless be enforceable to the fullest extent permitted by
@@ -595,7 +682,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XV. Assignment</h3>
+        <h3>XXI. Assignment</h3>
         <p>
           The Agreement (including, without limitation, these Terms) may be assigned without your prior consent to any
           OSV Indemnified Party, or to its successors in the interest of any business associated with the Services
@@ -605,7 +692,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XVI. Entire Agreement</h3>
+        <h3>XXII. Entire Agreement</h3>
         <p>
           The Agreement (including, without limitation, these Terms, and the Privacy Policy) and any policies or
           operating rules posted by us on the Services constitute the entire agreement and understanding between you and
@@ -617,7 +704,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XVII. Governing Law</h3>
+        <h3>XXIII. Governing Law</h3>
         <p>
           These Terms and any separate agreements whereby we provide you Services shall be governed by and construed in
           accordance with the laws of Florida, without giving effect to any choice or conflict of law provision or rule
@@ -626,7 +713,7 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h3>XVIII. Contact Us</h3>
+        <h3>XXIV. Contact Us</h3>
         <p>
           You may contact us with questions about your use of the Services at <ContactUs />.
         </p>
