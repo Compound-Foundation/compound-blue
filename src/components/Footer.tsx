@@ -73,6 +73,12 @@ export default function Footer() {
             </LinkExternal>
             . Always verify URLs before connecting your wallet.
           </div>
+          <div>
+            Risk Notice: Use of this site and any DeFi services involves a material risk of economic loss, 
+            including loss of principal. Protocols deployed on public blockchains are subject to smart contract, 
+            market, and operational risks. You are solely responsible for your decisions and outcomes. 
+            Use at your own risk.
+          </div>
         </div>
       </div>
     </footer>
