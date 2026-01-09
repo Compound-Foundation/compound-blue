@@ -45,6 +45,57 @@ export default function PrivacyPage() {
       </section>
 
       <section>
+        <h3>TRANSITIONAL DATA PROCESSING NOTICE</h3>
+        <p>
+          During a transitional period, certain technical maintenance, hosting, or wind-down functions relating to the 
+          Interface may be performed by the Compound Foundation, a Delaware non-profit corporation exempt from federal 
+          income tax under Section 501(c)(4) of the Internal Revenue Code, or by its contractors. For the avoidance of 
+          doubt, Office Supply Ventures LLC remains the sole data controller for any personal data collected under this 
+          Privacy Policy, and no Foundation Party determines the purposes or means of processing personal data within 
+          the meaning of applicable data protection laws.
+        </p>
+      </section>
+
+      <section>
+        <h3>NO FOUNDATION PARTY DATA OBLIGATIONS</h3>
+        <p>
+          Nothing in this Privacy Policy shall be construed as creating any data protection, confidentiality, or privacy 
+          obligations on the part of the Compound Foundation, its directors, officers, employees, contractors, agents, 
+          or delegates (collectively, “Foundation Parties”). The Foundation Parties do not act as data controllers or 
+          processors in respect of personal data collected through the Interface and expressly disclaim any responsibility 
+          or liability for such data.
+        </p>
+      </section>
+
+      <section>
+        <h3>PUBLIC BLOCKCHAIN DATA</h3>
+        <p>
+          Transactions conducted via the Interface are recorded on public, permissionless blockchain networks. Information 
+          stored on such blockchains is publicly accessible and not controlled, modified, or deleted by us or any Foundation 
+          Party. This Privacy Policy does not apply to information that is recorded on a public blockchain or otherwise made 
+          publicly available through blockchain networks.
+        </p>
+      </section>
+
+      <section>
+        <h3>LIMITED ANALYTICS USE</h3>
+        <p>
+          Any analytics or technical logs collected in connection with the Interface are used solely for security, debugging, 
+          and performance monitoring purposes. We do not use personal data collected through the Interface to profile users, 
+          track on-chain behavior across protocols, link blockchain activity to real-world identities, or engage in targeted 
+          advertising, monetization, or commercial profiling.
+        </p>
+      </section>
+
+      <section>
+        <h3>LIMITATIONS ON DATA SUBJECT RIGHTS</h3>
+        <p>
+          The exercise of any data subject rights may be limited where compliance is impracticable, disproportionate, or legally 
+          restricted, including following the deprecation, suspension, or discontinuation of the Interface.
+        </p>
+      </section>
+
+      <section>
         <h3>Collection and Use of Personal Information by OSV</h3>
 
         <section>
