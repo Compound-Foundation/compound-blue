@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default async function EarnPage() {
   return (
     <>
-      <div className="flex flex-col gap-8 pt-8">
+      <div className="flex flex-col gap-8 pt-4">
         <section className="flex flex-col justify-between gap-8 md:flex-row md:gap-2">
           <div className="flex h-[60px] items-center gap-4">
             <Image src="/polygon.png" width={56} height={56} alt="Polygon" className="rounded-[12px]" />

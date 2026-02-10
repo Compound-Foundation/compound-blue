@@ -88,6 +88,15 @@ export default function PrivacyPage() {
       </section>
 
       <section>
+        <h3>SERVICE DEPRECATION AND DATA RETENTION</h3>
+        <p>
+          You acknowledge that the Interface is expected to be deprecated or discontinued in the near term. Personal data collected
+          in connection with the Interface will not be retained longer than reasonably necessary to satisfy security, legal, or
+          compliance obligations following such deprecation and will otherwise be deleted or anonymized in accordance with applicable law.
+        </p>
+      </section>
+
+      <section>
         <h3>LIMITATIONS ON DATA SUBJECT RIGHTS</h3>
         <p>
           The exercise of any data subject rights may be limited where compliance is impracticable, disproportionate, or legally 
