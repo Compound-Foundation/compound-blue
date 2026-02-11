@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 export default function LegalLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex w-full justify-center pt-8">
+    <div className="flex w-full justify-center pt-4">
       <div
         className={clsx(
           "flex w-full max-w-[600px] flex-col gap-6 text-content-secondary",
