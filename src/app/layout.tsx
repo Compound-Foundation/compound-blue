@@ -37,20 +37,34 @@ function DeprecationBanner() {
           "flex items-center gap-2 rounded-[12px] p-4"
         )}>
           <span>
-          Compound Blue is being deprecated through governance. The DAO no longer supports Compound Blue and is not responsible for covering losses or distributing rewards. Users remain solely responsible for managing their positions. Users may access positions on 
+          Compound Blue will be deprecated by March 6, 2026 after the approved governance
           {" "}
-          <LinkExternal href="https://app.morpho.org/polygon/earn" 
+          <LinkExternal href="https://snapshot.box/#/s:comp-vote.eth/proposal/0x6da835802571f46985e5a6baf59a16acb3753de6046c4c7b54796b9dcc42f56b" 
             className="inline underline" hideArrow
           >
-            Morpho
-          </LinkExternal>{" "}
-          during and post Compound Blue deprecation. For continued lending activity, you are encouraged to use
+            snapshot vote
+          </LinkExternal>
+          {" "}
+          . Please move your positions as soon as possible and use
           {" "}
           <LinkExternal href="https://app.compound.finance" 
             className="inline underline" hideArrow
           >
             Compound V3
-          </LinkExternal>{" "}.
+          </LinkExternal>
+          {" "}
+          <span className="font-extrabold">
+            moving forward
+          </span>
+          . Users are responsible for their funds and positions and can access them via
+          {" "}
+          <LinkExternal href="https://app.morpho.org/ethereum/earn" 
+            className="inline underline" hideArrow
+          >
+            Morpho
+          </LinkExternal>
+          {" "}
+          after the Compound Blue deprecation.
           </span>
         </div>
       </div>
